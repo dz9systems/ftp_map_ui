@@ -126,8 +126,8 @@ const main_styles = {
 // CREATE STYLES OBJECT
 const data_styles = {
   width: '75%',
-  bottom: '-15rem',
-  left: '32rem',
+  bottom: '2rem',
+  left: '5rem',
   padding: '3rem',
 }
 
