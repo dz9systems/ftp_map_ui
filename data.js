@@ -114,7 +114,8 @@ const data = [
 ];
 
 
-
+console.log(screen.width, screen.height);
+const screenSize = () => screen.width === 375 && screen.height === 812;
 
 // CREATE STYLES OBJECT
 const main_styles = {
@@ -125,7 +126,7 @@ const main_styles = {
 // CREATE STYLES OBJECT
 const data_styles = {
   width: '75%',
-  // bottom: screenSize()? '8rem': '8rem',
+  bottom: screenSize()? '8rem': null,
   left: '5rem',
   padding: '3rem',
 }
