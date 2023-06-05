@@ -89,3 +89,14 @@ p {font-size: 0.8rem; margin:0; font-family: 'Public Sans', sans-serif;}
     font-size:3rem;
   }
 }
+
+/* CSS for iPhone 12 mini */
+@media only screen
+  and (device-width: 375px)
+  and (device-height: 812px)
+  and (-webkit-device-pixel-ratio: 3) {
+    #details-box{
+      bottom: 8rem;
+    }
+}
+

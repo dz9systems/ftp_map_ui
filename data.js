@@ -84,12 +84,11 @@ const data = [
   },
   {
     state: 'Minnesota',
-    law_passed: null,
-    law_proposed: 'proposed',
+    law_passed: 'passed',
+    law_proposed: null,
     year: '2023-24',
-    law_url: ['https://www.revisor.mn.gov/bills/text.php?number=HF226&type=bill&version=0&session=ls93&session_year=2023&session_number=0',
-      'https://www.revisor.mn.gov/bills/text.php?number=SF0586&session=ls93&version=latest&session_number=0&session_year=2023'],
-    title_of_law: ['HF 226', 'SF 586'],
+    law_url: ['https://www.revisor.mn.gov/bills/bill.php?f=SF2909&b=senate&y=2023&ssn=0'],
+    title_of_law: ['SF 2909'],
     prison_pop: '8,152'
   },
   {
