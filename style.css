@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Public+Sans&display=swap');
 
 body {
     display:flex;
@@ -32,7 +33,6 @@ a p {
   padding:0.2rem;
   text-align:center;
   color:white;
-  font-family: "Poppins";
 }
 
 /* Media query for mobile devices */
@@ -44,14 +44,13 @@ a p {
 }
 
 #key-table {
-  width:10%;
+  width:11%;
   position: relative;
   top:16rem;
 }
 
 #key-table div {
   margin:0.5rem;
-  border: 1px solid ;
 }
 
 #key-table div.red{
@@ -75,7 +74,11 @@ a p {
     z-index: 1;
 }
 
-p {font-size: 0.8rem; margin:0;}
+#details-box p {
+ margin-bottom:5px;
+}
+
+p {font-size: 0.8rem; margin:0; font-family: 'Public Sans', sans-serif;}
 
 .justifyCenter {
   display: flex;

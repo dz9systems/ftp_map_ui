@@ -136,14 +136,12 @@ const data_styles = {
 // CREATE STYLES OBJECT
 const location_styles = {
   'font-size':'3rem',
+  'margin-bottom':'1rem',
 }
 // CREATE STYLES OBJECT
 const prisonPop_styles = {
   'font-size':'3rem',
-}
-// CREATE STYLES OBJECT
-const law_title_styles = {
-  'font-size':'3rem',
+  'margin-bottom':'1rem',
 }
 
 // CREATE STYLES OBJECT

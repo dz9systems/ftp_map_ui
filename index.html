@@ -22,10 +22,10 @@
     </div>
     <div id="key-table">
         <div class="red">
-          <p id="passed">Passed</p>
+          <p id="passed">Law Passed</p>
         </div>
         <div class="black">
-          <p id="proposed">Proposed</p>
+          <p id="proposed">Law Proposed</p>
         </div>
     </div>
 
@@ -495,7 +495,7 @@
       let law_url = document.getElementById("law_url");
       let locationP = document.getElementById("location");
       let prisopPop = document.getElementById("prisonPop");
-      // let law_title =  document.getElementById("law_title");
+      let law_title =  document.getElementById("law_title");
 
       function createLawElements(lawObject) {
 
@@ -518,6 +518,7 @@
           // Add a style keyword to the paragraph element
           if (screen.width < 420) {
             paragraphElement.style.fontSize = "3rem";
+            paragraphElement.style.marginBottom = "1rem";
           }
           paragraphElement.textContent = `${lawObject.title_of_law[i]} (${status} ${lawObject.year})`;
           // Append the <p> element to the <a> element
@@ -550,10 +551,8 @@
             createLawElements(eaState);
             document.getElementById("prisonPop").innerHTML = `Prison Population: ${ prison_pop}`;
            } else{
-            document.getElementById("location").innerHTML = state_name;
-            createLawElements(eaState);
-            document.getElementById("prisonPop").innerHTML = `No Data Available`;
-            document.getElementById("details-box").style.opacity = "100%";
+            detailBox.style.display = 'none';
+
           }
         }
       });
