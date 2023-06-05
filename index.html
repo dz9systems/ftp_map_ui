@@ -9,7 +9,7 @@
   </head>
   <body id="body">
     <div id="main">
-      <div id="details-box" style="display:'none';width:20%;">
+      <div id="details-box" style="display:'none';width:10%;">
        <p id="location" style="text-align:cente;"></p>
        <div style="display:flex; align-items: center;">
         <div class="justifyCenter">
@@ -551,14 +551,13 @@
             document.getElementById("prisonPop").innerHTML = `Prison Population: ${ prison_pop}`;
            } else{
             detailBox.style.display = 'none';
-
           }
         }
       });
 
       if (screen.width > 420 ) {
           data_box.style.bottom = '24rem';
-          data_box.style.left = '10rem';
+          data_box.style.left = '21.5rem';
           key_table.style.top = '16rem';
       }else{
           Object.assign(main.style, main_styles);
