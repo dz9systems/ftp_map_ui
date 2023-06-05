@@ -126,7 +126,7 @@ const main_styles = {
 // CREATE STYLES OBJECT
 const data_styles = {
   width: '75%',
-  bottom: '2rem',
+  bottom: '15rem',
   left: '5rem',
   padding: '3rem',
 }
@@ -146,8 +146,8 @@ const prisonPop_styles = {
 
 // CREATE STYLES OBJECT
 const key_table_styles = {
-  top:'49rem',
-  left:'18rem',
+  top:'0rem',
+  left:'20rem',
   width:'40%',
 }
 
