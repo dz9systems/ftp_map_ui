@@ -125,7 +125,7 @@ const main_styles = {
 // CREATE STYLES OBJECT
 const data_styles = {
   width: '75%',
-  bottom: '15rem',
+  // bottom: screenSize()? '8rem': '8rem',
   left: '5rem',
   padding: '3rem',
 }
