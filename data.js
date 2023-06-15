@@ -93,7 +93,7 @@ const data = [
   },
   {
     state: 'New York',
-    law_passed: 'passed',
+    law_passed: 'proposed',
     law_proposed: null,
     year: '2021-22',
     law_url: ['https://www.nysenate.gov/legislation/bills/2021/S257',
@@ -123,10 +123,10 @@ const main_styles = {
 
 // CREATE STYLES OBJECT
 const data_styles = {
-  width: '75%',
-  bottom: screenSize()? '1rem': null,
-  left: '5rem',
-  padding: '3rem',
+  // width: '75%',
+  // bottom: screenSize()? '1rem': null,
+  // left: '5rem',
+  // padding: '3rem',
 }
 
 // CREATE STYLES OBJECT

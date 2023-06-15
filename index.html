@@ -513,7 +513,6 @@
           paragraphElement = document.createElement("p");
           linkElement = document.createElement("a");
           linkElement.href = lawObject.law_url[i];
-          console.log(linkElement.href);
           // Add a style keyword to the paragraph element
           if (screen.width < 420) {
             paragraphElement.style.fontSize = "3rem";
@@ -554,11 +553,30 @@
           }
         }
       });
-      if (screen.width > 420 ) {
+
+
+      // IPHONE
+      if (screen.width === 375){
+        data_box.style.width = '75%';
+        // data_box.style.bottom ='0rem';
+        data_box.style.left ='5rem';
+        data_box.style.padding = '3rem';
+      }
+
+      // LAP TOP SCREEN SIZE
+       if (screen.width === 1440) {
+        data_box.style.bottom = '18.5rem';
+        data_box.style.left = '6.5rem';
+        data_box.style.width = '14%';
+      }
+      // DESKTOP
+      else if (screen.width > 420 ) {
           data_box.style.bottom = '24rem';
           data_box.style.left = '21.5rem';
+          data_box.style.width = '10%';
           key_table.style.top = '16rem';
-      }else{
+      }
+      else{
           Object.assign(main.style, main_styles);
           Object.assign(data_box.style, data_styles);
           Object.assign(key_table.style, key_table_styles);
