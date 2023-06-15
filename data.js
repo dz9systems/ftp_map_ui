@@ -113,20 +113,10 @@ const data = [
   }
 ];
 
-const screenSize = () => screen.width === 375 && screen.height === 812;
-
 // CREATE STYLES OBJECT
 const main_styles = {
   bottom: '30rem',
   left: '34rem',
-}
-
-// CREATE STYLES OBJECT
-const data_styles = {
-  // width: '75%',
-  // bottom: screenSize()? '1rem': null,
-  // left: '5rem',
-  // padding: '3rem',
 }
 
 // CREATE STYLES OBJECT
