@@ -93,8 +93,8 @@ const data = [
   },
   {
     state: 'New York',
-    law_passed: 'proposed',
-    law_proposed: null,
+    law_passed: null,
+    law_proposed: 'proposed',
     year: '2021-22',
     law_url: ['https://www.nysenate.gov/legislation/bills/2021/S257',
       'https://www.nysenate.gov/legislation/bills/2021/a5977'],
