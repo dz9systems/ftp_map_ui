@@ -15,8 +15,14 @@ path {
 }
 
 a p {
-  color: blue;
+  color: white;
+  text-decoration: none;
 }
+
+a  {
+  text-decoration: none;
+}
+
 
 #us-map {
     display: block;

@@ -549,18 +549,32 @@
             createLawElements(eaState);
             document.getElementById("prisonPop").innerHTML = `Prison Population: ${ prison_pop}`;
            } else{
-            detailBox.style.display = 'none';
+            // detailBox.style.display = 'none';
           }
         }
       });
 
 
       // IPHONE
-      if (screen.width > 289 && screen.width < 376){
+      if (screen.width < 400){
         data_box.style.width = '75%';
         data_box.style.bottom ='4rem';
         data_box.style.left ='5rem';
         data_box.style.padding = '3rem';
+        // Create a new div element
+        var newDiv = document.createElement("div");
+
+        // Set the height of the new div to 20rem
+        newDiv.style.height = "20rem";
+
+        // Get a reference to the element you want to insert the new div above
+        var existingElement = document.getElementById("details-box");
+
+        // Get the parent node of the existing element
+        var parentElement = existingElement.parentNode;
+
+        // Insert the new div above the existing element
+        parentElement.insertBefore(newDiv, existingElement);
       }
 
       // LAP TOP SCREEN SIZE
