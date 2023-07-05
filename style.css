@@ -39,6 +39,7 @@ a  {
   padding:0.2rem;
   text-align:center;
   color:white;
+  width: 5rem;
 }
 
 /* Media query for mobile devices */

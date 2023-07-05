@@ -22,10 +22,10 @@
     </div>
     <div id="key-table">
         <div class="red">
-          <p id="passed">Law Passed</p>
+          <p id="passed">PIR Law Passed</p>
         </div>
         <div class="black">
-          <p id="proposed">Law Proposed</p>
+          <p id="proposed">PIR Law Proposed</p>
         </div>
     </div>
 
@@ -537,7 +537,7 @@
 
       detailBox.style.display = 'none';
       main.appendChild(data_box);
-      document.addEventListener('mouseover', function (e) {
+      document.addEventListener('click', function (e) {
         if (e.target.tagName == 'path') {
           detailBox.style.display = '';
         let state_name = e.target.dataset.name;
