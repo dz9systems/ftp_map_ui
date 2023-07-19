@@ -37,18 +37,12 @@ a  {
 #key-table p {
   font-size:0.7rem;
   padding:0.2rem;
-  text-align:center;
+  padding-left:0.3rem;
   color:white;
   width: 5rem;
 }
 
-/* Media query for mobile devices */
-@media only screen and (max-width: 767px) {
-  #key-table p {
-    font-size: 3rem;
-    padding: 0.1rem;
-  }
-}
+
 
 #key-table {
   width:11%;

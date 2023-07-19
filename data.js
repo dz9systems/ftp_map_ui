@@ -139,12 +139,14 @@ const key_table_styles = {
 
 // CREATE STYLES OBJECT
 const passed_styles = {
-  'font-size':'3rem',
+  'font-size':'2.5rem',
+  'padding':'1rem',
 }
 
 // CREATE STYLES OBJECT
 const proposed_styles = {
-  'font-size':'3rem',
+  'font-size':'2.5rem',
+  'padding':'1rem',
 }
 
 
